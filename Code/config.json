@@ -1,0 +1,33 @@
+{
+	"original":{
+
+		},
+	"symmetricKey":{
+		"K":"aes-256-cbc",
+		"symmetrickeylength":256,
+		"iterations":500,
+		"soglia": 0.5
+	},
+	"hash":{
+		"H":"sha3-512",
+		"keylength": 1024,
+		"iterations" : 500
+	},
+	"merkleTree":{
+		"HLeaves":"sha3-256",
+		"keyLengthHLeaves":256,
+		"HTree": "sha3-512",
+		"iterations" : 500,
+		"soglia": 0.5
+	},
+	"merklePatriciaTree":{
+		"HTree": "none",
+		"HLeaves":"sha3-512",
+		"keyLength":512,
+		"iterations" : 500,
+		"soglia": 0.5
+	},
+	"atomic":{
+		"iterations" : 500
+	}
+}
